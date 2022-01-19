@@ -1,0 +1,26 @@
+{
+  "name": "maka-cli",
+  "version": "0.0.1",
+  "description": "自定义脚手架工具",
+  "main": "index.js",
+  "bin": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liyinfeng25/maka-cli.git"
+  },
+  "author": "李银凤",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liyinfeng25/maka-cli/issues"
+  },
+  "homepage": "https://github.com/liyinfeng25/maka-cli#readme",
+  "devDependencies": {
+    "inquirer": "^8.2.0"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6"
+  }
+}
