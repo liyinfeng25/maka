@@ -1,10 +1,10 @@
 {
   "name": "maka",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "maka",
   "main": "cli.js",
   "bin": {
-    "maka": "./bin/cli.js"
+    "ceshi": "./bin/cli.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -38,6 +38,7 @@
     "figlet": "^1.5.2",
     "fs-extra": "^10.0.0",
     "inquirer": "^8.2.0",
-    "ora": "^5.4.1"
+    "ora": "^5.4.1",
+    "semver": "^7.3.5"
   }
 }

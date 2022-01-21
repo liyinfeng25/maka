@@ -3,6 +3,9 @@
 const program = require('commander')
 const chalk = require('chalk')
 var figlet = require('figlet');
+const semver = require('semver');
+
+console.log(semver.minVersion('>0.0.0'))
 
 // 配置 create 命令
 program
@@ -35,7 +38,7 @@ program
 // 自定义事件监听
 program.on('--help', () => {
   // 使用 figlet 绘制 Logo
-  console.log('\r\n' + figlet.textSync('maka-cli', {
+  console.log('\r\n' + figlet.textSync('maka', {
     font: 'Ghost',
     horizontalLayout: 'default',
     verticalLayout: 'default',
@@ -45,7 +48,6 @@ program.on('--help', () => {
 
   // 完善帮助信息，使用 chalk 优化颜色
   console.log(`\r\nRun ${chalk.cyan(`maka-cli <command> --help`)} for detailed usage of given command\r\n`)
-
 })  
 
 
