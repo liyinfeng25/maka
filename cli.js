@@ -5,7 +5,7 @@
 // 如果是Linux 或者 macOS 系统下还需要修改此文件的读写权限为 755
 // 具体就是通过 chmod 755 cli.js 实现修改
 
-console.log('start check entry~')
+console.log('maka working~')
 
 const inquirer = require('inquirer')
 const ejs = require('ejs')

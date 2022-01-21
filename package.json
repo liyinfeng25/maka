@@ -1,5 +1,5 @@
 {
-  "name": "maka-cli",
+  "name": "maka",
   "version": "0.0.1",
   "description": "自定义脚手架工具",
   "main": "index.js",
